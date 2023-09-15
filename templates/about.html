@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load category_template_tags %}
+{% block content %}
+<style type="text/css">
+	.selection-2{
+	display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da !important;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	}
+</style>
+
+	<!-- Title Page -->
+	<section class="bg-title-page p-t-50 p-b-40 flex-col-c-m" style="background-image: url(/static/images/heading-pages-02.jpg)	;">
+		<h2 class="l-text2 t-center">
+			About
+		</h2>
+		<p class="m-text13 t-center">
+			About
+		</p>
+	</section>
+
+
+	<!-- Content page -->
+	<section class="bgwhite p-t-55 p-b-65">
+		<div class="container">
+			<div class="row">
+				<div class="">
+<!--					<div class="leftbar p-r-20 p-r-0-sm">-->
+						<!--  -->
+						<h4 class="m-text14 p-b-7" style="margin:10px;">
+							About
+						</h4>
+<p style="align-left:10px;margin:10px;"> At abc shopping, we are more than just an online store; we're your trusted partner on your shopping journey. We understand that your choices reflect your unique style, needs, and aspirations. That's why we're dedicated to bringing you an unparalleled shopping experience, filled with quality products, exceptional service, and a touch of inspiration.</p>
+					</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+
+		{% endblock content %}
